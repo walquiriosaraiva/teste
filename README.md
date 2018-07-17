@@ -1,15 +1,22 @@
 ##teste
 ===============
 
-####baixando o projeto
+##baixando o projeto
 ```sh
     git clone https://github.com/walquiriosaraiva/teste.git
 ```
 
-####instalando bibliotecas via composer
+##instalando bibliotecas via composer
 ```sh
     composer install	
 ```
+
+##o arquivo .env estou deixando subir para você ver como estou usando
+```sh
+    se quiser você pode gerar uma nova chave APP_KEY
+    e alterar as configurações do banco de dados também.    
+```
+
 
 ##banco de dados
 ```sh
