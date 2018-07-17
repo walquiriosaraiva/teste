@@ -25,6 +25,10 @@ Route::group(['middleware' => ['web']], function(){
 });
 
 
+Route::get('livros/{titulo?}', function ($name = 'primeiros-passos-docker') {
+    return $name;
+});
+
 /*
 Route::get('/matricula', function(){
     return view('matricula');
